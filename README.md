@@ -41,4 +41,4 @@ Cori Winters <br>
 Heather M Decker <br> 
 Sarah Sexton
 ##Sound Design & Composition
-Ali Cedroni
+Ali Cedroni 
