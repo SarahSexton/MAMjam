@@ -42,3 +42,27 @@ Heather M Decker <br>
 Sarah Sexton
 ##Sound Design & Composition
 Ali Cedroni 
+
+#Insights 
+Something learned during the event: 
+* "For this event, it was important to know participants'
+ skills and program knowledge. Things rolled in our favor 
+ when we got a good mix of programing, development, and 
+ creative ability."
+* "The The effort required to coordinate art and the 
+complexity behind a game that could take all of five minutes 
+but still has multiple endings. Also an appreciation for 
+a good sound person."
+* "I got a sense of what it's like to work in a team, sharing
+ assets, etc. I also learned specific things like exporting
+  Unity packages and those label gizmos."
+* "I had a lot of fun. I’m going to figure out how to integrate
+ the audio I created into Unity."
+ 
+ 
+ Wish we knew beforehand: 
+ * "I wish I had more understanding for timing and guidelines 
+ to a base start, and then building up from there."
+ * "I wish we’d all had a chance to talk about our 
+ experiences going to games. Like tips for how to handle certain situations."
+ 
