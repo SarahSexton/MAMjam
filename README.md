@@ -21,26 +21,26 @@ Genre: Simulation, Arcade <br>
 Downloadable project, made in Unity. <br>
 Release status: An early prototype for testing an idea out.
 #Credits
-##Producers 
+####Producers 
 The Voxelles
-##Director 
+####Director 
 Sarah Sexton
-##Programmers 
+####Programmers 
 Princess <br>
 Rachel Ponce <br>
 Sayuri Fujimoto
-##Artists
+####Artists
 Christy Hernandez <br>
 Cori Winters <br>
 Demi Decker <br>
 Heather M Decker <br> 
 Princess <br> 
 Rebecca Lopez <br> 
-##Writers 
+####Writers 
 Cori Winters <br> 
 Heather M Decker <br> 
 Sarah Sexton
-##Sound Design & Composition
+####Sound Design & Composition
 Ali Cedroni 
 
 #Insights 
@@ -59,8 +59,8 @@ a good sound person."
 * "I had a lot of fun. I’m going to figure out how to integrate
  the audio I created into Unity."
  
- 
- Wish we knew beforehand: 
+
+Wish we knew beforehand: 
 * "I wish I had more understanding for timing and guidelines 
  to a base start, and then building up from there."
 * "I wish we’d all had a chance to talk about our 
