@@ -61,8 +61,8 @@ a good sound person."
  
  
  Wish we knew beforehand: 
- * "I wish I had more understanding for timing and guidelines 
+* "I wish I had more understanding for timing and guidelines 
  to a base start, and then building up from there."
- * "I wish we’d all had a chance to talk about our 
+* "I wish we’d all had a chance to talk about our 
  experiences going to games. Like tips for how to handle certain situations."
  
