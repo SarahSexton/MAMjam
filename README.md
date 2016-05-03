@@ -58,6 +58,8 @@ a good sound person."
   Unity packages and those label gizmos."
 * "I had a lot of fun. I’m going to figure out how to integrate
  the audio I created into Unity."
+* "I thought the Jam went pretty well, which is why I want to see 
+the game through to completion. I think maybe we spent too long planning."
  
 
 Wish we knew beforehand: 
@@ -65,4 +67,5 @@ Wish we knew beforehand:
  to a base start, and then building up from there."
 * "I wish we’d all had a chance to talk about our 
  experiences going to games. Like tips for how to handle certain situations."
+* "I'm not sure we realized just how much time we needed to allocate to tying up all the loose ends."
  
