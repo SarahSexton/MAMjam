@@ -49,7 +49,7 @@ Something learned during the event:
  skills and program knowledge. Things rolled in our favor 
  when we got a good mix of programing, development, and 
  creative ability."
-* "The The effort required to coordinate art and the 
+* "The effort required to coordinate art and the 
 complexity behind a game that could take all of five minutes 
 but still has multiple endings. Also an appreciation for 
 a good sound person."
