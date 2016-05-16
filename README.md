@@ -42,6 +42,10 @@ Heather M Decker <br>
 Sarah Sexton
 ##Sound Design & Composition
 Ali Cedroni 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80d5d7213b834fd1821698ed98dc5a776790efc1
 #Insights 
 Something learned during the event: 
 * "For this event, it was important to know participants'
@@ -60,8 +64,16 @@ a good sound person."
  
  
  Wish we knew beforehand: 
+<<<<<<< HEAD
 * "I wish I had more understanding for timing and guidelines 
  to a base start, and then building up from there."
 * "I wish we’d all had a chance to talk about our 
  experiences going to games. Like tips for how to handle certain situations."
  
+=======
+ * "I wish I had more understanding for timing and guidelines 
+ to a base start, and then building up from there."
+ * "I wish we’d all had a chance to talk about our 
+ experiences going to games. Like tips for how to handle certain situations."
+ 
+>>>>>>> 80d5d7213b834fd1821698ed98dc5a776790efc1
