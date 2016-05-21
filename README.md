@@ -11,6 +11,7 @@ and contribute to the spread of game development and creativity.
 The theme of this game jam was loosely based on Motherhood and building 
 female-friendly games. Microsoft sponsored and provided the catering of 
 breakfast, snacks, and dinner.
+![Screenshot](/images/screenshot.png)
 ## Game: Skyler's Life Boat
 Life is a coursing river. Swiftly choose your path in this choose-your-own-adventure game.
 ## Produced by the Voxelles 
