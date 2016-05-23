@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: ffafcb914ca45418c8ee82efd89b8e55
+timeCreated: 1462126088
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: 1Skylar_RightRowTransition_0
+    21300002: 1Skylar_RightRowTransition_1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: 1Skylar_RightRowTransition_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 161, y: -252}
+        - {x: 162, y: -251}
+        - {x: 160, y: -248}
+        - {x: 103, y: -246}
+        - {x: 109, y: -241}
+        - {x: 113, y: -200}
+        - {x: 121, y: -188}
+        - {x: 121, y: -177}
+        - {x: 95, y: -124}
+        - {x: 96, y: -115}
+        - {x: 87, y: -90}
+        - {x: 72, y: -50}
+        - {x: 77, y: 11}
+        - {x: 88, y: 97}
+        - {x: 131, y: 91}
+        - {x: 191, y: 68}
+        - {x: 221, y: 68}
+        - {x: 230, y: 91}
+        - {x: 227, y: 111}
+        - {x: 224, y: 134}
+        - {x: 219, y: 153}
+        - {x: 217, y: 175}
+        - {x: 221, y: 228}
+        - {x: 242, y: 243}
+        - {x: 242, y: 260}
+        - {x: 227, y: 267}
+        - {x: 188, y: 254}
+        - {x: 151, y: 223}
+        - {x: 100, y: 188}
+        - {x: 94, y: 182}
+        - {x: 62, y: 190}
+        - {x: 46, y: 200}
+        - {x: 51, y: 213}
+        - {x: 44, y: 239}
+        - {x: 41, y: 271}
+        - {x: 46, y: 285}
+        - {x: 33, y: 325}
+        - {x: 10, y: 349}
+        - {x: -16, y: 356}
+        - {x: -63, y: 356}
+        - {x: -75, y: 352}
+        - {x: -97, y: 341}
+        - {x: -113, y: 313}
+        - {x: -115, y: 286}
+        - {x: -114, y: 257}
+        - {x: -101, y: 222}
+        - {x: -102, y: 198}
+        - {x: -102, y: 188}
+        - {x: -98, y: 184}
+        - {x: -94, y: 176}
+        - {x: -101, y: 159}
+        - {x: -130, y: 145}
+        - {x: -151, y: 112}
+        - {x: -154, y: 76}
+        - {x: -174, y: 66}
+        - {x: -192, y: 45}
+        - {x: -198, y: 33}
+        - {x: -198, y: 3}
+        - {x: -182, y: -16}
+        - {x: -168, y: -20}
+        - {x: -151, y: -17}
+        - {x: -141, y: -73}
+        - {x: -135, y: -83}
+        - {x: -129, y: -89}
+        - {x: -112, y: -89}
+        - {x: -103, y: -75}
+        - {x: -114, y: -133}
+        - {x: -127, y: -167}
+        - {x: -129, y: -191}
+        - {x: -118, y: -206}
+        - {x: -110, y: -236}
+        - {x: -103, y: -249}
+        - {x: -150, y: -248}
+        - {x: -152, y: -250}
+        - {x: -151, y: -454}
+        - {x: -152, y: -455}
+        - {x: -150, y: -458}
+        - {x: -148, y: -457}
+        - {x: 158, y: -457}
+        - {x: 159, y: -458}
+        - {x: 162, y: -456}
+    - name: 1Skylar_RightRowTransition_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 161, y: -254}
+        - {x: 162, y: -253}
+        - {x: 160, y: -250}
+        - {x: 106, y: -249}
+        - {x: 108, y: -235}
+        - {x: 109, y: -190}
+        - {x: 106, y: -163}
+        - {x: 98, y: -121}
+        - {x: 84, y: -70}
+        - {x: 102, y: -37}
+        - {x: 122, y: -38}
+        - {x: 125, y: -51}
+        - {x: 145, y: -76}
+        - {x: 166, y: -91}
+        - {x: 187, y: -91}
+        - {x: 199, y: -75}
+        - {x: 225, y: -33}
+        - {x: 248, y: -31}
+        - {x: 290, y: -21}
+        - {x: 290, y: -3}
+        - {x: 288, y: 3}
+        - {x: 231, y: 6}
+        - {x: 187, y: 3}
+        - {x: 170, y: -2}
+        - {x: 169, y: 12}
+        - {x: 159, y: 37}
+        - {x: 126, y: 97}
+        - {x: 89, y: 155}
+        - {x: 76, y: 163}
+        - {x: 68, y: 167}
+        - {x: 41, y: 179}
+        - {x: 58, y: 185}
+        - {x: 63, y: 191}
+        - {x: 58, y: 213}
+        - {x: 61, y: 237}
+        - {x: 53, y: 280}
+        - {x: 54, y: 299}
+        - {x: 44, y: 332}
+        - {x: 28, y: 347}
+        - {x: -6, y: 360}
+        - {x: -45, y: 360}
+        - {x: -50, y: 359}
+        - {x: -78, y: 347}
+        - {x: -96, y: 321}
+        - {x: -112, y: 242}
+        - {x: -112, y: 230}
+        - {x: -108, y: 226}
+        - {x: -106, y: 209}
+        - {x: -96, y: 180}
+        - {x: -87, y: 173}
+        - {x: -49, y: 168}
+        - {x: -104, y: 139}
+        - {x: -121, y: 123}
+        - {x: -152, y: 81}
+        - {x: -163, y: 36}
+        - {x: -177, y: 7}
+        - {x: -174, y: -2}
+        - {x: -205, y: 2}
+        - {x: -285, y: -13}
+        - {x: -356, y: -31}
+        - {x: -372, y: -54}
+        - {x: -372, y: -91}
+        - {x: -371, y: -96}
+        - {x: -354, y: -107}
+        - {x: -335, y: -118}
+        - {x: -297, y: -115}
+        - {x: -259, y: -108}
+        - {x: -193, y: -94}
+        - {x: -184, y: -114}
+        - {x: -179, y: -122}
+        - {x: -144, y: -123}
+        - {x: -126, y: -109}
+        - {x: -96, y: -72}
+        - {x: -96, y: -114}
+        - {x: -103, y: -125}
+        - {x: -113, y: -172}
+        - {x: -115, y: -185}
+        - {x: -108, y: -201}
+        - {x: -105, y: -237}
+        - {x: -99, y: -251}
+        - {x: -149, y: -250}
+        - {x: -152, y: -252}
+        - {x: -151, y: -456}
+        - {x: -152, y: -457}
+        - {x: -150, y: -460}
+        - {x: -148, y: -459}
+        - {x: 158, y: -459}
+        - {x: 159, y: -460}
+        - {x: 162, y: -458}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
