@@ -64,16 +64,19 @@ public class MainControls : MonoBehaviour {
 
 			if (mAnimator.GetCurrentAnimatorStateInfo(0).IsName("Idle") || mAnimator.IsInTransition (0)) {
 				if (Input.GetKey (KeyCode.LeftArrow)) {
-					GetComponent<AudioSource> ().clip = GetLeftRowSound ();
-					GetComponent<AudioSource> ().Play ();
+					//GetComponent<AudioSource> ().clip = GetLeftRowSound ();
+					//GetComponent<AudioSource> ().Play ();
+					AkSoundEngine.PostEvent ("Play_PaddleR", gameObject);
 					mAnimator.SetTrigger ("LeftRow");
 				} 
 				else if (Input.GetKey (KeyCode.RightArrow)) {
-					GetComponent<AudioSource> ().clip = GetRightRowSound ();
-					GetComponent<AudioSource> ().Play ();
+					//GetComponent<AudioSource> ().clip = GetRightRowSound ();
+					//GetComponent<AudioSource> ().Play ();
+					AkSoundEngine.PostEvent ("Play_PaddleL", gameObject);
 					mAnimator.SetTrigger ("RightRow");
 				} 
 				else {
+					AkSoundEngine.PostEvent ("Play_PaddleF", gameObject);
 					mAnimator.SetTrigger ("FrontRow");
 					StartCoroutine (PlayRowForwardSound());
 				}

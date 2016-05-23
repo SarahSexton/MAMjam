@@ -3,7 +3,64 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Cat1Save" ID="{DBDDAA86-FE22-4BCE-BA8F-FB59634FD214}" ShortID="599616185" Type="SoundFX">
+				<Folder Name="Nurture" ID="{0A1C1855-8808-4D17-9F98-D41AFEC985F6}" ShortID="29468149">
+					<ChildrenList>
+						<Folder Name="Cats" ID="{425E0E8F-3A32-4591-8759-B78CE3B776B9}" ShortID="697938068">
+							<ChildrenList>
+								<Sound Name="Cat1Save" ID="{DBDDAA86-FE22-4BCE-BA8F-FB59634FD214}" ShortID="599616185" Type="SoundFX">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cat1Save" ID="{FA9FDAD8-1DA6-4CDD-A51A-159418C0C3A7}" ShortID="655486243">
+											<Language>SFX</Language>
+											<AudioFile>Cat1Save.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cat1Save" ID="{FA9FDAD8-1DA6-4CDD-A51A-159418C0C3A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ChoiceTriggered" ID="{B58EAE25-93E1-4287-B60F-DF83AD32A432}" ShortID="207422764"/>
+				<Folder Name="Ambiences" ID="{840B3FEA-BE25-4C41-AD66-BEA9E3512404}" ShortID="143232540"/>
+				<RandomSequenceContainer Name="PaddleL" ID="{0F31DA7E-379E-4E2F-8803-14CFC5326E1D}" ShortID="549266409">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0563352F-1A62-47EF-94DF-CB58FF79EEC2}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{AE71AD54-B18D-4941-B051-B53C3D52FB1D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
@@ -13,15 +70,200 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Cat1Save" ID="{FA9FDAD8-1DA6-4CDD-A51A-159418C0C3A7}" ShortID="655486243">
-							<Language>SFX</Language>
-							<AudioFile>Cat1Save.wav</AudioFile>
-						</AudioFileSource>
+						<Sound Name="PaddleL01" ID="{1BC5C963-7C38-4885-BEED-8335A4549702}" ShortID="7723622" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PaddleL01" ID="{C7E577F0-5686-4819-8BC9-1F7F9243F581}" ShortID="521249063">
+									<Language>SFX</Language>
+									<AudioFile>PaddleL01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PaddleL01" ID="{C7E577F0-5686-4819-8BC9-1F7F9243F581}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PaddleL02" ID="{B7F8E943-920D-4267-BC5B-6BAFCEEF3062}" ShortID="923122246" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PaddleL02" ID="{BEF7AE83-A787-41FD-82D2-485FFB0B7638}" ShortID="735955249">
+									<Language>SFX</Language>
+									<AudioFile>PaddleL02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PaddleL02" ID="{BEF7AE83-A787-41FD-82D2-485FFB0B7638}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PaddleL03" ID="{032F7F1B-96C1-452F-8642-54B8F86B5833}" ShortID="604036734" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PaddleL03" ID="{57987E76-13DB-4D5C-B0A7-7DD6078F9BB4}" ShortID="154807188">
+									<Language>SFX</Language>
+									<AudioFile>PaddleL03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PaddleL03" ID="{57987E76-13DB-4D5C-B0A7-7DD6078F9BB4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PaddleL04" ID="{E4C2F3A5-19CC-44BA-8CE5-9BD9A0135C64}" ShortID="237579927" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PaddleL04" ID="{61C1FAD3-0C69-4509-B9D5-C69FD975D53F}" ShortID="646538626">
+									<Language>SFX</Language>
+									<AudioFile>PaddleL04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PaddleL04" ID="{61C1FAD3-0C69-4509-B9D5-C69FD975D53F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Cat1Save" ID="{FA9FDAD8-1DA6-4CDD-A51A-159418C0C3A7}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="PaddleR" ID="{11778A1C-9883-49BE-AB11-2E8D2EFBB45E}" ShortID="179312949">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7F782154-DC41-4ECA-9EB5-20855EE47407}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+											<Property Name="Min" Type="Real64" Value="-100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{E4ECC3BF-F7D4-41ED-8CB8-4AF07903C8F4}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PaddleR01" ID="{35C17DEE-9E30-48A7-A8CF-92CE4AA2500C}" ShortID="741487126" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PaddleR01" ID="{40E11A4E-F6F1-44D9-B7EB-691BF0CB6E3D}" ShortID="338352787">
+									<Language>SFX</Language>
+									<AudioFile>PaddleR01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PaddleR01" ID="{40E11A4E-F6F1-44D9-B7EB-691BF0CB6E3D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PaddleR02" ID="{7278FF10-C22A-4F64-B93D-31C10A9AA42D}" ShortID="804911126" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PaddleR02" ID="{8FAECF5D-74BB-4F9F-B2FC-BE00C30A7BAD}" ShortID="566069812">
+									<Language>SFX</Language>
+									<AudioFile>PaddleR02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PaddleR02" ID="{8FAECF5D-74BB-4F9F-B2FC-BE00C30A7BAD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PaddleR03" ID="{588C60AA-55DE-4E69-984D-66187D46615C}" ShortID="915892408" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PaddleR03" ID="{B2E9834E-9D28-4BEB-AD24-E29EB0E551E6}" ShortID="405026597">
+									<Language>SFX</Language>
+									<AudioFile>PaddleR03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PaddleR03" ID="{B2E9834E-9D28-4BEB-AD24-E29EB0E551E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="PaddleR04" ID="{0555DDE7-72D0-4233-8BD3-40F1D5512E75}" ShortID="642627597" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PaddleR04" ID="{6BF90933-A8DD-4D71-9D32-F586122598B9}" ShortID="527854763">
+									<Language>SFX</Language>
+									<AudioFile>PaddleR04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PaddleR04" ID="{6BF90933-A8DD-4D71-9D32-F586122598B9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

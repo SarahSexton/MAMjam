@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{87762E34-5F87-4B15-AD66-7CE59E87EDCF}" SchemaVersion="70">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{87762E34-5F87-4B15-AD66-7CE59E87EDCF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{87762E34-5F87-4B15-AD66-7CE59E87EDCF}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Music130" ID="{BCF26987-6CB2-4660-96ED-C699518833D3}" ShortID="337238069">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="29538.4126984127"/>
+						<Property Name="Tempo" Type="Real64" Value="130"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="skylars canoe ROUGH" ID="{7B07BDD3-5BF3-471E-B842-8D98705E829F}" ShortID="506401736">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="skylars canoe ROUGH" ID="{9BA778A8-4120-4B29-8779-1D491A9ECE25}" ShortID="48301625">
+									<Language>SFX</Language>
+									<AudioFile>skylars canoe ROUGH.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8C7D788A-0D17-457F-800D-ADDC1731BABE}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{299C0ED6-FD22-4F26-8431-03AC4D3534AE}">
+									<ClipList>
+										<MusicClip Name="skylars canoe ROUGH" ID="{934DEC19-98E0-4A0A-A3E4-6E4B7CCD7C12}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="29538.4126984127"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="skylars canoe ROUGH" ID="{9BA778A8-4120-4B29-8779-1D491A9ECE25}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{338C60FC-9123-4298-8A71-44A0DB39B7DF}"/>
+						<MusicCue Name="Exit Cue" ID="{307EDED4-F91F-496E-B2BA-A7FDCDC45BCA}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

@@ -14,6 +14,10 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_CAT1SAVE = 2223085068U;
+        static const AkUniqueID PLAY_MUSIC130 = 1541497333U;
+        static const AkUniqueID PLAY_PADDLEF = 3452829096U;
+        static const AkUniqueID PLAY_PADDLEL = 3452829090U;
+        static const AkUniqueID PLAY_PADDLER = 3452829116U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

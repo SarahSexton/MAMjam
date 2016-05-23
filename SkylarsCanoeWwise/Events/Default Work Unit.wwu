@@ -14,6 +14,60 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PaddleR" ID="{8ED73223-9A24-4527-A344-242E02C4A662}">
+					<ChildrenList>
+						<Action Name="Play" ID="{56A3FE41-313F-49D9-B201-7FEAD57612C8}" ShortID="56875986" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{98EC9D1E-CF7A-4844-9CE7-C56364B1E261}" Global="false">
+									<ObjectRef Name="PaddleR" ID="{11778A1C-9883-49BE-AB11-2E8D2EFBB45E}" WorkUnitID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PaddleL" ID="{0E06CDEC-5660-4300-8A13-C37D09116420}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0680549D-CC2F-45DC-BAFB-3AA905990A94}" ShortID="194060778" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F52077D9-A99C-4307-A8C5-1BCF1DCE88AD}" Global="false">
+									<ObjectRef Name="PaddleL" ID="{0F31DA7E-379E-4E2F-8803-14CFC5326E1D}" WorkUnitID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PaddleF" ID="{8FF26DCC-F394-48D8-88FE-C9F22F3C1099}">
+					<ChildrenList>
+						<Action Name="Play" ID="{26641824-8117-4957-9094-AF0835D0333E}" ShortID="297544819" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{46775397-C188-40F9-A985-756630D771A6}" Global="false">
+									<ObjectRef Name="PaddleL" ID="{0F31DA7E-379E-4E2F-8803-14CFC5326E1D}" WorkUnitID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{99BDDB9A-A2F0-42DB-B7AE-0FA8BF84A3AA}" ShortID="287034170" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{98F1BEF9-062D-40ED-81BD-02EE58D6DBC4}" Global="false">
+									<ObjectRef Name="PaddleR" ID="{11778A1C-9883-49BE-AB11-2E8D2EFBB45E}" WorkUnitID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music130" ID="{A267EA21-7F1C-4232-9402-16E40B85975E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{AC55C825-1B9E-4449-A840-0FF21EE0B29E}" ShortID="450502626" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F4E272B3-EFCE-4441-9D11-3ED0AB2FD907}" Global="false">
+									<ObjectRef Name="Music130" ID="{BCF26987-6CB2-4660-96ED-C699518833D3}" WorkUnitID="{87762E34-5F87-4B15-AD66-7CE59E87EDCF}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

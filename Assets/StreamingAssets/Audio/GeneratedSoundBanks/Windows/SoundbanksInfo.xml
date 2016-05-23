@@ -20,11 +20,51 @@
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2223085068" Name="Play_Cat1Save"/>
+				<Event Id="1541497333" Name="Play_Music130"/>
+				<Event Id="3452829096" Name="Play_PaddleF"/>
+				<Event Id="3452829090" Name="Play_PaddleL"/>
+				<Event Id="3452829116" Name="Play_PaddleR"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="48301625" Language="SFX">
+					<ShortName>skylars canoe ROUGH.wav</ShortName>
+					<Path>SFX\skylars canoe ROUGH_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="154807188" Language="SFX">
+					<ShortName>PaddleL03.wav</ShortName>
+					<Path>SFX\PaddleL03_9E69E797.wem</Path>
+				</File>
+				<File Id="338352787" Language="SFX">
+					<ShortName>PaddleR01.wav</ShortName>
+					<Path>SFX\PaddleR01_9E69E797.wem</Path>
+				</File>
+				<File Id="405026597" Language="SFX">
+					<ShortName>PaddleR03.wav</ShortName>
+					<Path>SFX\PaddleR03_9E69E797.wem</Path>
+				</File>
+				<File Id="521249063" Language="SFX">
+					<ShortName>PaddleL01.wav</ShortName>
+					<Path>SFX\PaddleL01_9E69E797.wem</Path>
+				</File>
+				<File Id="527854763" Language="SFX">
+					<ShortName>PaddleR04.wav</ShortName>
+					<Path>SFX\PaddleR04_9E69E797.wem</Path>
+				</File>
+				<File Id="566069812" Language="SFX">
+					<ShortName>PaddleR02.wav</ShortName>
+					<Path>SFX\PaddleR02_9E69E797.wem</Path>
+				</File>
+				<File Id="646538626" Language="SFX">
+					<ShortName>PaddleL04.wav</ShortName>
+					<Path>SFX\PaddleL04_9E69E797.wem</Path>
+				</File>
 				<File Id="655486243" Language="SFX">
 					<ShortName>Cat1Save.wav</ShortName>
 					<Path>SFX\Cat1Save_9E69E797.wem</Path>
+				</File>
+				<File Id="735955249" Language="SFX">
+					<ShortName>PaddleL02.wav</ShortName>
+					<Path>SFX\PaddleL02_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

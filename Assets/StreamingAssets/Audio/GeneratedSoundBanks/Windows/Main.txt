@@ -1,6 +1,19 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1541497333	Play_Music130			\Default Work Unit\Play_Music130	
 	2223085068	Play_Cat1Save			\Default Work Unit\Play_Cat1Save	
+	3452829090	Play_PaddleL			\Default Work Unit\Play_PaddleL	
+	3452829096	Play_PaddleF			\Default Work Unit\Play_PaddleF	
+	3452829116	Play_PaddleR			\Default Work Unit\Play_PaddleR	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	655486243	Cat1Save	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat1Save_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cat1Save		213312
+	48301625	skylars canoe ROUGH	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\skylars canoe ROUGH_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music130\skylars canoe ROUGH		5210640
+	154807188	PaddleL03	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleL03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleL\PaddleL03		277104
+	338352787	PaddleR01	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleR01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleR\PaddleR01		242092
+	405026597	PaddleR03	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleR03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleR\PaddleR03		228056
+	521249063	PaddleL01	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleL01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleL\PaddleL01		245844
+	527854763	PaddleR04	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleR04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleR\PaddleR04		257340
+	566069812	PaddleR02	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleR02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleR\PaddleR02		242968
+	646538626	PaddleL04	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleL04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleL\PaddleL04		243688
+	655486243	Cat1Save	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat1Save_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\Cat1Save		213312
+	735955249	PaddleL02	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleL02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleL\PaddleL02		265252
 
