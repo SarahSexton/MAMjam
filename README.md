@@ -29,7 +29,8 @@ Sarah Sexton
 ####Programmers 
 Princess <br>
 Rachel Ponce <br>
-Sayuri Fujimoto
+Sayuri Fujimoto <br> 
+Sarah Sexton
 ####Artists
 Christy Hernandez <br>
 Cori Winters <br>
