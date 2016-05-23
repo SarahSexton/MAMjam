@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5563bcae45ea145ae0a26cf555dc69, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  CurrentPluginConfig: Profile
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{FD4D0EBA-3A75-470A-9124-966828211858}'
+    m_lastTimePsrt1: -1684588915
+    m_lastTimePart2: -1999404336
+    List:
+    - Name: Play_Cat1Save
+      Path: Default Work Unit\Play_Cat1Save
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Cat1Save
+        ObjectType: 3
+      ID: -2071882228
+      Guid: 19e7ffc85e9d3849bb39b650161ff904
+      maxAttenuation: 0
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{E7E18790-6041-43E1-99B2-4AD8EE647A7E}'
+    m_lastTimePsrt1: 802963077
+    m_lastTimePart2: -1999404338
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{1FE7C368-8D07-479A-83C0-D994A65B415A}'
+    m_lastTimePsrt1: 802116215
+    m_lastTimePart2: -1999404338
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{2FB802C6-137F-4C66-BCE4-9460C0601A6B}'
+    m_lastTimePsrt1: 803068155
+    m_lastTimePart2: -1999404338
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    Guid: '{06C17D17-3DB2-4232-B3E3-A694AC8723B0}'
+    m_lastTimePsrt1: -1684488893
+    m_lastTimePart2: -1999404336
+    List:
+    - Name: Main
+      Path: Default Work Unit\Main
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      ID: -1133058374
+      Guid: 4a1927182a0d534692d9852bf2aa1aa4
+  ExpandedItems:
+  - /SkylarsCanoeWwise
+  - /SkylarsCanoeWwise/Events
+  - /SkylarsCanoeWwise/Events/Default Work Unit
+  m_lastPopulateTimePsrt1: 0
+  m_lastPopulateTimePart2: 0
+  autoPopulateEnabled: 1
+  basePath: Audio\GeneratedSoundBanks
+  language: English(US)
+  defaultPoolSize: 4096
+  lowerPoolSize: 2048
+  streamingPoolSize: 1024
+  memoryCutoffThreshold: .949999988

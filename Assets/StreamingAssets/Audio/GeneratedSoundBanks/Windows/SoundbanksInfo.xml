@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\AliCedroni66\Documents\GitHub\MAMjam\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2223085068" Name="Play_Cat1Save"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="655486243" Language="SFX">
+					<ShortName>Cat1Save.wav</ShortName>
+					<Path>SFX\Cat1Save_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

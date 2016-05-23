@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2223085068	Play_Cat1Save			\Default Work Unit\Play_Cat1Save	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	655486243	Cat1Save	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat1Save_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cat1Save		213312
+

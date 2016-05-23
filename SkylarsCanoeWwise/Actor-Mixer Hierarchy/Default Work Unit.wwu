@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Cat1Save" ID="{DBDDAA86-FE22-4BCE-BA8F-FB59634FD214}" ShortID="599616185" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Cat1Save" ID="{FA9FDAD8-1DA6-4CDD-A51A-159418C0C3A7}" ShortID="655486243">
+							<Language>SFX</Language>
+							<AudioFile>Cat1Save.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Cat1Save" ID="{FA9FDAD8-1DA6-4CDD-A51A-159418C0C3A7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
