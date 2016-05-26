@@ -19,28 +19,115 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2223085068" Name="Play_Cat1Save"/>
-				<Event Id="1541497333" Name="Play_Music130"/>
+				<Event Id="2959533290" Name="Play_Amb"/>
+				<Event Id="1700644942" Name="Play_BirdCalls"/>
+				<Event Id="1792286211" Name="Play_CatDistress"/>
+				<Event Id="767653747" Name="Play_CatPurrLoud"/>
+				<Event Id="275729277" Name="Play_CatSave"/>
+				<Event Id="982264143" Name="Play_ChaChingBig"/>
+				<Event Id="2489948288" Name="Play_ChaChingSmall"/>
+				<Event Id="2952268476" Name="Play_Child"/>
+				<Event Id="3419492923" Name="Play_ChurchBells"/>
+				<Event Id="1407659604" Name="Play_Divorce"/>
+				<Event Id="3564911592" Name="Play_Guitar"/>
+				<Event Id="3222604894" Name="Play_Jail"/>
+				<Event Id="2932040671" Name="Play_Music"/>
 				<Event Id="3452829096" Name="Play_PaddleF"/>
 				<Event Id="3452829090" Name="Play_PaddleL"/>
 				<Event Id="3452829116" Name="Play_PaddleR"/>
+				<Event Id="2689642121" Name="Play_Plant"/>
+				<Event Id="4147217813" Name="Play_SchoolBell"/>
+				<Event Id="441572235" Name="Play_Water"/>
+				<Event Id="3217967095" Name="Play_WoodCreak"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="48301625" Language="SFX">
-					<ShortName>skylars canoe ROUGH.wav</ShortName>
-					<Path>SFX\skylars canoe ROUGH_4B8CC0C5.wem</Path>
+				<File Id="15692244" Language="SFX">
+					<ShortName>ChurchBells.wav</ShortName>
+					<Path>SFX\ChurchBells_9E69E797.wem</Path>
+				</File>
+				<File Id="25114694" Language="SFX">
+					<ShortName>RiverFast.wav</ShortName>
+					<Path>SFX\RiverFast_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="52244592" Language="SFX">
+					<ShortName>Bird3Loud.wav</ShortName>
+					<Path>SFX\Bird3Loud_9E69E797.wem</Path>
+				</File>
+				<File Id="71227639" Language="SFX">
+					<ShortName>GamePlayMusic.wav</ShortName>
+					<Path>SFX\GamePlayMusic_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="126638071" Language="SFX">
+					<ShortName>Plant.wav</ShortName>
+					<Path>SFX\Plant_9E69E797.wem</Path>
+				</File>
+				<File Id="130806263" Language="SFX">
+					<ShortName>ChildLaugh1.wav</ShortName>
+					<Path>SFX\ChildLaugh1_9E69E797.wem</Path>
 				</File>
 				<File Id="154807188" Language="SFX">
 					<ShortName>PaddleL03.wav</ShortName>
 					<Path>SFX\PaddleL03_9E69E797.wem</Path>
 				</File>
+				<File Id="155306237" Language="SFX">
+					<ShortName>ChaChingBig.wav</ShortName>
+					<Path>SFX\ChaChingBig_9E69E797.wem</Path>
+				</File>
+				<File Id="188394434" Language="SFX">
+					<ShortName>Bird1Loud.wav</ShortName>
+					<Path>SFX\Bird1Loud_9E69E797.wem</Path>
+				</File>
+				<File Id="215586301" Language="SFX">
+					<ShortName>Cat3Distress1.wav</ShortName>
+					<Path>SFX\Cat3Distress1_9E69E797.wem</Path>
+				</File>
+				<File Id="237960865" Language="SFX">
+					<ShortName>Cat3Distress2.wav</ShortName>
+					<Path>SFX\Cat3Distress2_9E69E797.wem</Path>
+				</File>
+				<File Id="245892464" Language="SFX">
+					<ShortName>Cat3Distress3.wav</ShortName>
+					<Path>SFX\Cat3Distress3_9E69E797.wem</Path>
+				</File>
+				<File Id="274948300" Language="SFX">
+					<ShortName>IntroMusic.wav</ShortName>
+					<Path>SFX\IntroMusic_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="338352787" Language="SFX">
 					<ShortName>PaddleR01.wav</ShortName>
 					<Path>SFX\PaddleR01_9E69E797.wem</Path>
 				</File>
+				<File Id="369267528" Language="SFX">
+					<ShortName>WoodCreak4.wav</ShortName>
+					<Path>SFX\WoodCreak4_0D2B8219.wem</Path>
+				</File>
+				<File Id="373895296" Language="SFX">
+					<ShortName>Crow1.wav</ShortName>
+					<Path>SFX\Crow1_9E69E797.wem</Path>
+				</File>
 				<File Id="405026597" Language="SFX">
 					<ShortName>PaddleR03.wav</ShortName>
 					<Path>SFX\PaddleR03_9E69E797.wem</Path>
+				</File>
+				<File Id="421755646" Language="SFX">
+					<ShortName>Cat1Distress1.wav</ShortName>
+					<Path>SFX\Cat1Distress1_9E69E797.wem</Path>
+				</File>
+				<File Id="430058107" Language="SFX">
+					<ShortName>Cat2Distress2.wav</ShortName>
+					<Path>SFX\Cat2Distress2_9E69E797.wem</Path>
+				</File>
+				<File Id="452605664" Language="SFX">
+					<ShortName>Cat2Save.wav</ShortName>
+					<Path>SFX\Cat2Save_9E69E797.wem</Path>
+				</File>
+				<File Id="455580212" Language="SFX">
+					<ShortName>LappingWater.wav</ShortName>
+					<Path>SFX\LappingWater_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="481070823" Language="SFX">
+					<ShortName>ChaChingSmall.wav</ShortName>
+					<Path>SFX\ChaChingSmall_9E69E797.wem</Path>
 				</File>
 				<File Id="521249063" Language="SFX">
 					<ShortName>PaddleL01.wav</ShortName>
@@ -50,9 +137,25 @@
 					<ShortName>PaddleR04.wav</ShortName>
 					<Path>SFX\PaddleR04_9E69E797.wem</Path>
 				</File>
+				<File Id="531346711" Language="SFX">
+					<ShortName>Cat1Distress3.wav</ShortName>
+					<Path>SFX\Cat1Distress3_9E69E797.wem</Path>
+				</File>
 				<File Id="566069812" Language="SFX">
 					<ShortName>PaddleR02.wav</ShortName>
 					<Path>SFX\PaddleR02_9E69E797.wem</Path>
+				</File>
+				<File Id="596481214" Language="SFX">
+					<ShortName>Cat3Save.wav</ShortName>
+					<Path>SFX\Cat3Save_9E69E797.wem</Path>
+				</File>
+				<File Id="597140288" Language="SFX">
+					<ShortName>ChildLaugh2.wav</ShortName>
+					<Path>SFX\ChildLaugh2_9E69E797.wem</Path>
+				</File>
+				<File Id="639688995" Language="SFX">
+					<ShortName>Divorce.wav</ShortName>
+					<Path>SFX\Divorce_9E69E797.wem</Path>
 				</File>
 				<File Id="646538626" Language="SFX">
 					<ShortName>PaddleL04.wav</ShortName>
@@ -62,9 +165,73 @@
 					<ShortName>Cat1Save.wav</ShortName>
 					<Path>SFX\Cat1Save_9E69E797.wem</Path>
 				</File>
+				<File Id="716881039" Language="SFX">
+					<ShortName>WoodCreak2.wav</ShortName>
+					<Path>SFX\WoodCreak2_C98D4B0E.wem</Path>
+				</File>
+				<File Id="728601735" Language="SFX">
+					<ShortName>Cat2Distress3.wav</ShortName>
+					<Path>SFX\Cat2Distress3_9E69E797.wem</Path>
+				</File>
 				<File Id="735955249" Language="SFX">
 					<ShortName>PaddleL02.wav</ShortName>
 					<Path>SFX\PaddleL02_9E69E797.wem</Path>
+				</File>
+				<File Id="748040538" Language="SFX">
+					<ShortName>WoodCreak3.wav</ShortName>
+					<Path>SFX\WoodCreak3_464B3442.wem</Path>
+				</File>
+				<File Id="754461083" Language="SFX">
+					<ShortName>ColdWind.wav</ShortName>
+					<Path>SFX\ColdWind_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="758340009" Language="SFX">
+					<ShortName>Crow2.wav</ShortName>
+					<Path>SFX\Crow2_9E69E797.wem</Path>
+				</File>
+				<File Id="772507288" Language="SFX">
+					<ShortName>Cat2Distress1.wav</ShortName>
+					<Path>SFX\Cat2Distress1_9E69E797.wem</Path>
+				</File>
+				<File Id="799473161" Language="SFX">
+					<ShortName>RiverRocky.wav</ShortName>
+					<Path>SFX\RiverRocky_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="815944820" Language="SFX">
+					<ShortName>Cat1Distress2.wav</ShortName>
+					<Path>SFX\Cat1Distress2_9E69E797.wem</Path>
+				</File>
+				<File Id="822304861" Language="SFX">
+					<ShortName>Guitar.wav</ShortName>
+					<Path>SFX\Guitar_9E69E797.wem</Path>
+				</File>
+				<File Id="867740787" Language="SFX">
+					<ShortName>SchoolBell.wav</ShortName>
+					<Path>SFX\SchoolBell_9E69E797.wem</Path>
+				</File>
+				<File Id="877162769" Language="SFX">
+					<ShortName>Bird2Loud.wav</ShortName>
+					<Path>SFX\Bird2Loud_9E69E797.wem</Path>
+				</File>
+				<File Id="904987512" Language="SFX">
+					<ShortName>RiverCalm.wav</ShortName>
+					<Path>SFX\RiverCalm_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="952081232" Language="SFX">
+					<ShortName>NatureLoopLoud.wav</ShortName>
+					<Path>SFX\NatureLoopLoud_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="973849296" Language="SFX">
+					<ShortName>CatPurrLoud.wav</ShortName>
+					<Path>SFX\CatPurrLoud_9E69E797.wem</Path>
+				</File>
+				<File Id="991298732" Language="SFX">
+					<ShortName>WoodCreak1.wav</ShortName>
+					<Path>SFX\WoodCreak1_F3F2C600.wem</Path>
+				</File>
+				<File Id="1007180739" Language="SFX">
+					<ShortName>Jail.wav</ShortName>
+					<Path>SFX\Jail_9E69E797.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

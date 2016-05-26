@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1FE7C368-8D07-479A-83C0-D994A65B415A}" SchemaVersion="70">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{1FE7C368-8D07-479A-83C0-D994A65B415A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1FE7C368-8D07-479A-83C0-D994A65B415A}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Cat" ID="{6E656E52-B3EB-4781-942D-BA68C9325459}">
+					<ChildrenList>
+						<State Name="None" ID="{03783AC7-E633-4FCA-936F-0EFD61D02B7A}"/>
+						<State Name="Cat1" ID="{C7B7DF92-A035-41BB-A852-A284E3714245}"/>
+						<State Name="Cat2" ID="{49F32B96-F1FF-4C79-92F1-09AA06B08055}"/>
+						<State Name="Cat3" ID="{51FD05EB-39FA-4B9C-AAEB-706D3A537E93}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Mood" ID="{A51E98C4-B624-45B3-BDDB-96E4A8DA3539}">
+					<ChildrenList>
+						<State Name="None" ID="{FF98E09F-0C35-4806-9CD5-387CB2E03D36}"/>
+						<State Name="Negative" ID="{CB1CF07C-5DB5-4D86-B2C5-18BA24248172}"/>
+						<State Name="Neutral" ID="{2D6DDBBE-63DC-481B-A7AF-4BD6DF98DBBE}"/>
+						<State Name="Positive" ID="{20B96D24-3B66-4622-A4EF-90D15E583AA5}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Pace" ID="{E456CD7B-C06E-48EF-989F-2DEDA4C6E949}">
+					<ChildrenList>
+						<State Name="None" ID="{5CB8B65A-512D-4AEB-A99B-D8156DE89E95}"/>
+						<State Name="Fast" ID="{19CB42A5-B3E9-44E5-B30C-EE7B94413EDD}"/>
+						<State Name="Medium" ID="{2FC7FCB9-53D8-4F87-982C-4AEC553A2B84}"/>
+						<State Name="Slow" ID="{44C795DB-9B34-437C-9819-5ADF32AFF6E1}"/>
+						<State Name="Stopped" ID="{94A78BBA-1775-4EDF-B1CC-4FDD1BE9F71C}"/>
+						<State Name="Start" ID="{53C0A994-8B2F-40F3-88E9-54762A2E84CC}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

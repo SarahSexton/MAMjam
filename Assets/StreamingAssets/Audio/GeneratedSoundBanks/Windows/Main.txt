@@ -1,19 +1,89 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1541497333	Play_Music130			\Default Work Unit\Play_Music130	
-	2223085068	Play_Cat1Save			\Default Work Unit\Play_Cat1Save	
+	275729277	Play_CatSave			\Default Work Unit\Play_CatSave	
+	441572235	Play_Water			\Default Work Unit\Play_Water	
+	767653747	Play_CatPurrLoud			\Default Work Unit\Play_CatPurrLoud	
+	982264143	Play_ChaChingBig			\Default Work Unit\Play_ChaChingBig	
+	1407659604	Play_Divorce			\Default Work Unit\Play_Divorce	
+	1700644942	Play_BirdCalls			\Default Work Unit\Play_BirdCalls	
+	1792286211	Play_CatDistress			\Default Work Unit\Play_CatDistress	
+	2489948288	Play_ChaChingSmall			\Default Work Unit\Play_ChaChingSmall	
+	2689642121	Play_Plant			\Default Work Unit\Play_Plant	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	2952268476	Play_Child			\Default Work Unit\Play_Child	
+	2959533290	Play_Amb			\Default Work Unit\Play_Amb	
+	3217967095	Play_WoodCreak			\Default Work Unit\Play_WoodCreak	
+	3222604894	Play_Jail			\Default Work Unit\Play_Jail	
+	3419492923	Play_ChurchBells			\Default Work Unit\Play_ChurchBells	
 	3452829090	Play_PaddleL			\Default Work Unit\Play_PaddleL	
 	3452829096	Play_PaddleF			\Default Work Unit\Play_PaddleF	
 	3452829116	Play_PaddleR			\Default Work Unit\Play_PaddleR	
+	3564911592	Play_Guitar			\Default Work Unit\Play_Guitar	
+	4147217813	Play_SchoolBell			\Default Work Unit\Play_SchoolBell	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	983016379	Cat			\Default Work Unit\Cat	
+
+Switch	ID	Name	Switch Group			Notes
+	4155948880	Cat1	Cat			
+	4155948882	Cat3	Cat			
+	4155948883	Cat2	Cat			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3128647864	Mood			\Default Work Unit\Mood	
+
+State	ID	Name	State Group			Notes
+	670611050	Neutral	Mood			
+	748895195	None	Mood			
+	1192865152	Positive	Mood			
+	4219547688	Negative	Mood			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	48301625	skylars canoe ROUGH	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\skylars canoe ROUGH_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music130\skylars canoe ROUGH		5210640
+	15692244	ChurchBells	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\ChurchBells_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChoiceTriggered\ChurchBells		1038708
+	25114694	RiverFast	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\RiverFast_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Water\RiverMedium\RiverFast\RiverFast		1445136
+	52244592	Bird3Loud	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Bird3Loud_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\BirdCalls\Bird\Bird3Loud		324640
+	71227639	GamePlayMusic	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\GamePlayMusic_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\MainTheme\GamePlayMusic\GamePlayMusic		1302712
+	126638071	Plant	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Plant_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Plant		122700
+	130806263	ChildLaugh1	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\ChildLaugh1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Child\ChildLaugh1		327772
 	154807188	PaddleL03	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleL03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleL\PaddleL03		277104
+	155306237	ChaChingBig	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\ChaChingBig_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChoiceTriggered\ChaChingBig		264812
+	188394434	Bird1Loud	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Bird1Loud_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\BirdCalls\Bird\Bird1Loud		623700
+	215586301	Cat3Distress1	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat3Distress1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatDistress\Cat3Distress\Cat3Distress1		123200
+	237960865	Cat3Distress2	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat3Distress2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatDistress\Cat3Distress\Cat3Distress2		185140
+	245892464	Cat3Distress3	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat3Distress3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatDistress\Cat3Distress\Cat3Distress3		133504
+	274948300	IntroMusic	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\IntroMusic_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Intro\IntroMusic\IntroMusic		2605360
 	338352787	PaddleR01	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleR01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleR\PaddleR01		242092
+	369267528	WoodCreak4	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\WoodCreak4_0D2B8219.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\WoodCreak\WoodCreak4		162276
+	373895296	Crow1	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Crow1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\BirdCalls\Crow\Crow1		647336
 	405026597	PaddleR03	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleR03_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleR\PaddleR03		228056
+	421755646	Cat1Distress1	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat1Distress1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatDistress\Cat1Distress\Cat1Distress1		128024
+	430058107	Cat2Distress2	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat2Distress2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatDistress\Cat2Distress\Cat2Distress2		106728
+	452605664	Cat2Save	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat2Save_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatSave\Cat2Save		49224
+	455580212	LappingWater	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\LappingWater_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Water\LappingWater\LappingWater\LappingWater		1392448
+	481070823	ChaChingSmall	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\ChaChingSmall_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChoiceTriggered\ChaChingSmall		108024
 	521249063	PaddleL01	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleL01_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleL\PaddleL01		245844
 	527854763	PaddleR04	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleR04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleR\PaddleR04		257340
+	531346711	Cat1Distress3	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat1Distress3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatDistress\Cat1Distress\Cat1Distress3		137240
 	566069812	PaddleR02	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleR02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleR\PaddleR02		242968
+	596481214	Cat3Save	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat3Save_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatSave\Cat3Save		142032
+	597140288	ChildLaugh2	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\ChildLaugh2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Child\ChildLaugh2		307648
+	639688995	Divorce	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Divorce_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChoiceTriggered\Divorce		302996
 	646538626	PaddleL04	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleL04_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleL\PaddleL04		243688
-	655486243	Cat1Save	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat1Save_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\Cat1Save		213312
+	655486243	Cat1Save	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat1Save_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatSave\Cat1Save		213312
+	716881039	WoodCreak2	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\WoodCreak2_C98D4B0E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\WoodCreak\WoodCreak2		143188
+	728601735	Cat2Distress3	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat2Distress3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatDistress\Cat2Distress\Cat2Distress3		214480
 	735955249	PaddleL02	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\PaddleL02_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\PaddleL\PaddleL02		265252
+	748040538	WoodCreak3	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\WoodCreak3_464B3442.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\WoodCreak\WoodCreak3		202924
+	754461083	ColdWind	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\ColdWind_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Amb\ColdWind\ColdWind\ColdWind		1189236
+	758340009	Crow2	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Crow2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\BirdCalls\Crow\Crow2		303944
+	772507288	Cat2Distress1	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat2Distress1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatDistress\Cat2Distress\Cat2Distress1		228504
+	799473161	RiverRocky	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\RiverRocky_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Water\RiverFast\RiverRocky\RiverRocky		1629532
+	815944820	Cat1Distress2	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Cat1Distress2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatDistress\Cat1Distress\Cat1Distress2		125404
+	822304861	Guitar	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Guitar_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChoiceTriggered\Guitar		212784
+	867740787	SchoolBell	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\SchoolBell_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChoiceTriggered\SchoolBell		266312
+	877162769	Bird2Loud	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Bird2Loud_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\BirdCalls\Bird\Bird2Loud		421544
+	904987512	RiverCalm	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\RiverCalm_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Water\RiverSlow\RiverCalm\RiverCalm		1926824
+	952081232	NatureLoopLoud	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\NatureLoopLoud_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\Amb\NatureLoop\NatureLoopLoud\NatureLoopLoud		1392448
+	973849296	CatPurrLoud	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\CatPurrLoud_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Nurture\Cats\CatPurrLoud		855252
+	991298732	WoodCreak1	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\WoodCreak1_F3F2C600.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\WoodCreak\WoodCreak1		197380
+	1007180739	Jail	C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\.cache\Windows\SFX\Jail_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChoiceTriggered\Jail		572104
 

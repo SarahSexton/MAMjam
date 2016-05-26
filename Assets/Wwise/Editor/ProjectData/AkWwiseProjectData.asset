@@ -16,28 +16,138 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FD4D0EBA-3A75-470A-9124-966828211858}'
-    m_lastTimePsrt1: 1957691759
-    m_lastTimePart2: -1999404242
+    m_lastTimePsrt1: -1991646631
+    m_lastTimePart2: -1999403732
     List:
-    - Name: Play_Cat1Save
-      Path: Default Work Unit\Play_Cat1Save
+    - Name: Play_Amb
+      Path: Default Work Unit\Play_Amb
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Cat1Save
+      - ElementName: Play_Amb
         ObjectType: 3
-      ID: -2071882228
-      Guid: 19e7ffc85e9d3849bb39b650161ff904
+      ID: -1335434006
+      Guid: a4ebc3848d481d409c8b8d40ad1d4f15
       maxAttenuation: 0
-    - Name: Play_Music130
-      Path: Default Work Unit\Play_Music130
+    - Name: Play_BirdCalls
+      Path: Default Work Unit\Play_BirdCalls
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Music130
+      - ElementName: Play_BirdCalls
         ObjectType: 3
-      ID: 1541497333
-      Guid: 21ea67a21c7f3242940216e40b85975e
+      ID: 1700644942
+      Guid: 5aa467c5a4708446a7f6d85cadaffb3b
+      maxAttenuation: 0
+    - Name: Play_CatDistress
+      Path: Default Work Unit\Play_CatDistress
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_CatDistress
+        ObjectType: 3
+      ID: 1792286211
+      Guid: 7864276aeba08043a07d3349087a3a09
+      maxAttenuation: 0
+    - Name: Play_CatPurrLoud
+      Path: Default Work Unit\Play_CatPurrLoud
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_CatPurrLoud
+        ObjectType: 3
+      ID: 767653747
+      Guid: 6a4ed73003cde34ba899762135993d92
+      maxAttenuation: 0
+    - Name: Play_CatSave
+      Path: Default Work Unit\Play_CatSave
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_CatSave
+        ObjectType: 3
+      ID: 275729277
+      Guid: d7ad13d35bd5824eb8fd71e48d1358be
+      maxAttenuation: 0
+    - Name: Play_ChaChingBig
+      Path: Default Work Unit\Play_ChaChingBig
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ChaChingBig
+        ObjectType: 3
+      ID: 982264143
+      Guid: d3d24a79d06f874bbdc4ef6d11b59dd4
+      maxAttenuation: 0
+    - Name: Play_ChaChingSmall
+      Path: Default Work Unit\Play_ChaChingSmall
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ChaChingSmall
+        ObjectType: 3
+      ID: -1805019008
+      Guid: 87963e801d183a4cb023c6d5fb34a296
+      maxAttenuation: 0
+    - Name: Play_Child
+      Path: Default Work Unit\Play_Child
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Child
+        ObjectType: 3
+      ID: -1342698820
+      Guid: 94ff0a9aed7621428304903b5df43c72
+      maxAttenuation: 0
+    - Name: Play_ChurchBells
+      Path: Default Work Unit\Play_ChurchBells
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_ChurchBells
+        ObjectType: 3
+      ID: -875474373
+      Guid: 57089811ba275f4aaa6ecbb639812946
+      maxAttenuation: 0
+    - Name: Play_Divorce
+      Path: Default Work Unit\Play_Divorce
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Divorce
+        ObjectType: 3
+      ID: 1407659604
+      Guid: 1b66d1456ad72b48a62354d4dd974756
+      maxAttenuation: 0
+    - Name: Play_Guitar
+      Path: Default Work Unit\Play_Guitar
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Guitar
+        ObjectType: 3
+      ID: -730055704
+      Guid: 10e3802ab344dc4f9ca64c4897e5ba4e
+      maxAttenuation: 0
+    - Name: Play_Jail
+      Path: Default Work Unit\Play_Jail
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Jail
+        ObjectType: 3
+      ID: -1072362402
+      Guid: 960d9d5e4564504f8275366d5043811c
+      maxAttenuation: 0
+    - Name: Play_Music
+      Path: Default Work Unit\Play_Music
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Music
+        ObjectType: 3
+      ID: -1362926625
+      Guid: 939047f5c276b6498cade4c412f55c73
       maxAttenuation: 0
     - Name: Play_PaddleF
       Path: Default Work Unit\Play_PaddleF
@@ -69,6 +179,46 @@ MonoBehaviour:
       ID: -842138180
       Guid: 2332d78e249a2745a344242e02c4a662
       maxAttenuation: 0
+    - Name: Play_Plant
+      Path: Default Work Unit\Play_Plant
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Plant
+        ObjectType: 3
+      ID: -1605325175
+      Guid: 36b3a6fd1f231642980ea3d6def203ef
+      maxAttenuation: 0
+    - Name: Play_SchoolBell
+      Path: Default Work Unit\Play_SchoolBell
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_SchoolBell
+        ObjectType: 3
+      ID: -147749483
+      Guid: dc4a9047f3eedb46826785d5330d2f3b
+      maxAttenuation: 0
+    - Name: Play_Water
+      Path: Default Work Unit\Play_Water
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Water
+        ObjectType: 3
+      ID: 441572235
+      Guid: b22ca13fba19ce49a0a35dc32623828e
+      maxAttenuation: 0
+    - Name: Play_WoodCreak
+      Path: Default Work Unit\Play_WoodCreak
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_WoodCreak
+        ObjectType: 3
+      ID: -1077000201
+      Guid: 915a3eef8a8670419211b838d8583f70
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -80,22 +230,196 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{1FE7C368-8D07-479A-83C0-D994A65B415A}'
-    m_lastTimePsrt1: 802116215
-    m_lastTimePart2: -1999404338
-    List: []
+    m_lastTimePsrt1: -207853942
+    m_lastTimePart2: -1999403734
+    List:
+    - Name: Cat
+      Path: Default Work Unit\Cat
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cat
+        ObjectType: 9
+      ID: 983016379
+      Guid: 526e656eebb38147942dba68c9325459
+      values:
+      - Cat1
+      - Cat2
+      - Cat3
+      - None
+      ValueIcons:
+      - ElementName: Cat1
+        ObjectType: 8
+      - ElementName: Cat2
+        ObjectType: 8
+      - ElementName: Cat3
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      valueIDs: 50bfb6f753bfb6f752bfb6f7db3ba32c
+      ValueGuids:
+      - bytes: 92dfb7c735a0bb41a852a284e3714245
+      - bytes: 962bf349fff1794c92f109aa06b08055
+      - bytes: eb05fd51fa399c4baaeb706d3a537e93
+      - bytes: c73a780333e6ca4f936f0efd61d02b7a
+    - Name: Mood
+      Path: Default Work Unit\Mood
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mood
+        ObjectType: 9
+      ID: -1166319432
+      Guid: c4981ea524b6b345bddb96e4a8da3539
+      values:
+      - Negative
+      - Neutral
+      - None
+      - Positive
+      ValueIcons:
+      - ElementName: Negative
+        ObjectType: 8
+      - ElementName: Neutral
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Positive
+        ObjectType: 8
+      valueIDs: 283081fb6ab6f827db3ba32c80ad1947
+      ValueGuids:
+      - bytes: 7cf01ccbb55d864db2c518ba24248172
+      - bytes: bedb6d2ddc631b48a7af4bd6df98dbbe
+      - bytes: 9fe098ff350c06489cd5387cb2e03d36
+      - bytes: 246db920663b2246a4ef90d15e583aa5
+    - Name: Pace
+      Path: Default Work Unit\Pace
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pace
+        ObjectType: 9
+      ID: 1895473648
+      Guid: 7bcd56e46ec0ef48989f2deda4c6e949
+      values:
+      - Fast
+      - Medium
+      - None
+      - Slow
+      - Start
+      - Stopped
+      ValueIcons:
+      - ElementName: Fast
+        ObjectType: 8
+      - ElementName: Medium
+        ObjectType: 8
+      - ElementName: None
+        ObjectType: 8
+      - ElementName: Slow
+        ObjectType: 8
+      - ElementName: Start
+        ObjectType: 8
+      - ElementName: Stopped
+        ObjectType: 8
+      valueIDs: 531cc0b0b08bd2a9db3ba32c02e4f12ef7e1664c94af23ad
+      ValueGuids:
+      - bytes: a542cb19e9b3e544b30cee7b94413edd
+      - bytes: b9fcc72fd853874f982c4aec553a2b84
+      - bytes: 5ab6b85c2d51eb4aa99bd8156de89e95
+      - bytes: db95c744349b7c4398195adf32aff6e1
+      - bytes: 94a9c0532f8bf34088e954762a2e84cc
+      - bytes: ba8ba7947517df4eb1cc4fdd1be9f71c
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{2FB802C6-137F-4C66-BCE4-9460C0601A6B}'
-    m_lastTimePsrt1: 803068155
-    m_lastTimePart2: -1999404338
-    List: []
+    m_lastTimePsrt1: 1904650683
+    m_lastTimePart2: -1999404236
+    List:
+    - Name: Cat
+      Path: Default Work Unit\Cat
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cat
+        ObjectType: 11
+      ID: 983016379
+      Guid: bf553f32419c19418a837b1296026a45
+      values:
+      - Cat1
+      - Cat2
+      - Cat3
+      ValueIcons:
+      - ElementName: Cat1
+        ObjectType: 10
+      - ElementName: Cat2
+        ObjectType: 10
+      - ElementName: Cat3
+        ObjectType: 10
+      valueIDs: 50bfb6f753bfb6f752bfb6f7
+      ValueGuids:
+      - bytes: 14e185225d70ef4bb52abdb703914d48
+      - bytes: 814ebf713f475e4bb6d8fe6ed7d533c4
+      - bytes: 5be9f001e5766f46bcc8e273d292bb15
+    - Name: Mood
+      Path: Default Work Unit\Mood
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Mood
+        ObjectType: 11
+      ID: -1166319432
+      Guid: eee45e5f0b4fd74e92e3a4a4945ab58b
+      values:
+      - Negative
+      - Neutral
+      - Positive
+      ValueIcons:
+      - ElementName: Negative
+        ObjectType: 10
+      - ElementName: Neutral
+        ObjectType: 10
+      - ElementName: Positive
+        ObjectType: 10
+      valueIDs: 283081fb6ab6f82780ad1947
+      ValueGuids:
+      - bytes: 4c153173c2006a40ac198cdae0f05d2a
+      - bytes: f1d00f8ce8c3cd45863651be118a100e
+      - bytes: d4db5cd7dfdf6241bc1949699b473c0d
+    - Name: River
+      Path: Default Work Unit\River
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: River
+        ObjectType: 11
+      ID: -689179647
+      Guid: 0c0000c8ba47dc4c8ec28dab777d78b7
+      values:
+      - Fast
+      - Medium
+      - Slow
+      - Stopped
+      ValueIcons:
+      - ElementName: Fast
+        ObjectType: 10
+      - ElementName: Medium
+        ObjectType: 10
+      - ElementName: Slow
+        ObjectType: 10
+      - ElementName: Stopped
+        ObjectType: 10
+      valueIDs: 531cc0b0b08bd2a902e4f12e94af23ad
+      ValueGuids:
+      - bytes: 738ea6252b5e7f4a9665338204061a0d
+      - bytes: 6afd0ab31a351a4f827d7bb6988f46ea
+      - bytes: 58ee3c94ae7f764ba1cbd843f776179c
+      - bytes: 7e86a319042d7344a694d5f7e05aa7c9
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{06C17D17-3DB2-4232-B3E3-A694AC8723B0}'
-    m_lastTimePsrt1: 2084797365
-    m_lastTimePart2: -1999404242
+    m_lastTimePsrt1: -1991926758
+    m_lastTimePart2: -1999403732
     List:
     - Name: Main
       Path: Default Work Unit\Main

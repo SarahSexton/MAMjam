@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2FB802C6-137F-4C66-BCE4-9460C0601A6B}" SchemaVersion="70">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{2FB802C6-137F-4C66-BCE4-9460C0601A6B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2FB802C6-137F-4C66-BCE4-9460C0601A6B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Cat" ID="{323F55BF-9C41-4119-8A83-7B1296026A45}">
+					<ChildrenList>
+						<Switch Name="Cat1" ID="{2285E114-705D-4BEF-B52A-BDB703914D48}"/>
+						<Switch Name="Cat2" ID="{71BF4E81-473F-4B5E-B6D8-FE6ED7D533C4}"/>
+						<Switch Name="Cat3" ID="{01F0E95B-76E5-466F-BCC8-E273D292BB15}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Mood" ID="{5F5EE4EE-4F0B-4ED7-92E3-A4A4945AB58B}">
+					<ChildrenList>
+						<Switch Name="Positive" ID="{D75CDBD4-DFDF-4162-BC19-49699B473C0D}"/>
+						<Switch Name="Neutral" ID="{8C0FD0F1-C3E8-45CD-8636-51BE118A100E}"/>
+						<Switch Name="Negative" ID="{7331154C-00C2-406A-AC19-8CDAE0F05D2A}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="River" ID="{C800000C-47BA-4CDC-8EC2-8DAB777D78B7}">
+					<ChildrenList>
+						<Switch Name="Stopped" ID="{19A3867E-2D04-4473-A694-D5F7E05AA7C9}"/>
+						<Switch Name="Slow" ID="{943CEE58-7FAE-4B76-A1CB-D843F776179C}"/>
+						<Switch Name="Medium" ID="{B30AFD6A-351A-4F1A-827D-7BB6988F46EA}"/>
+						<Switch Name="Fast" ID="{25A68E73-5E2B-4A7F-9665-338204061A0D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

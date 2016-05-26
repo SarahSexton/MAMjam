@@ -5,10 +5,25 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{1827194A-0D2A-4653-92D9-852BF2AA1AA4}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Cat1Save" ID="{C8FFE719-9D5E-4938-BB39-B650161FF904}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Music130" ID="{A267EA21-7F1C-4232-9402-16E40B85975E}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Guitar" ID="{2A80E310-44B3-4FDC-9CA6-4C4897E5BA4E}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Divorce" ID="{45D1661B-D76A-482B-A623-54D4DD974756}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PaddleR" ID="{8ED73223-9A24-4527-A344-242E02C4A662}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Plant" ID="{FDA6B336-231F-4216-980E-A3D6DEF203EF}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_ChurchBells" ID="{11980857-27BA-4A5F-AA6E-CBB639812946}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_BirdCalls" ID="{C567A45A-70A4-4684-A7F6-D85CADAFFB3B}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CatPurrLoud" ID="{30D74E6A-CD03-4BE3-A899-762135993D92}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CatDistress" ID="{6A276478-A0EB-4380-A07D-3349087A3A09}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_ChaChingSmall" ID="{803E9687-181D-4C3A-B023-C6D5FB34A296}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_WoodCreak" ID="{EF3E5A91-868A-4170-9211-B838D8583F70}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Music" ID="{F5479093-76C2-49B6-8CAD-E4C412F55C73}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Child" ID="{9A0AFF94-76ED-4221-8304-903B5DF43C72}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Jail" ID="{5E9D0D96-6445-4F50-8275-366D5043811C}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Amb" ID="{84C3EBA4-488D-401D-9C8B-8D40AD1D4F15}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Water" ID="{3FA12CB2-19BA-49CE-A0A3-5DC32623828E}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PaddleF" ID="{8FF26DCC-F394-48D8-88FE-C9F22F3C1099}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_ChaChingBig" ID="{794AD2D3-6FD0-4B87-BDC4-EF6D11B59DD4}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_CatSave" ID="{D313ADD7-D55B-4E82-B8FD-71E48D1358BE}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_SchoolBell" ID="{47904ADC-EEF3-46DB-8267-85D5330D2F3B}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_PaddleL" ID="{0E06CDEC-5660-4300-8A13-C37D09116420}" WorkUnitID="{FD4D0EBA-3A75-470A-9124-966828211858}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
