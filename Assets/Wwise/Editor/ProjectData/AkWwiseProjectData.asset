@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FD4D0EBA-3A75-470A-9124-966828211858}'
-    m_lastTimePsrt1: 1957011998
-    m_lastTimePart2: -1999403043
+    m_lastTimePsrt1: -1721260976
+    m_lastTimePart2: -1999403028
     List:
     - Name: Play_Amb
       Path: Default Work Unit\Play_Amb
@@ -109,6 +109,16 @@ MonoBehaviour:
       ID: -875474373
       Guid: 57089811ba275f4aaa6ecbb639812946
       maxAttenuation: 0
+    - Name: Play_Dating
+      Path: Default Work Unit\Play_Dating
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Dating
+        ObjectType: 3
+      ID: 1582391079
+      Guid: 433aca6185896e449ee73dafbcd0615b
+      maxAttenuation: 0
     - Name: Play_Divorce
       Path: Default Work Unit\Play_Divorce
       PathAndIcons:
@@ -118,6 +128,26 @@ MonoBehaviour:
         ObjectType: 3
       ID: 1407659604
       Guid: 1b66d1456ad72b48a62354d4dd974756
+      maxAttenuation: 0
+    - Name: Play_Door
+      Path: Default Work Unit\Play_Door
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Door
+        ObjectType: 3
+      ID: -1747333426
+      Guid: a65f960edb5afe44a8f9a97fa3abb4bb
+      maxAttenuation: 0
+    - Name: Play_Dumpster
+      Path: Default Work Unit\Play_Dumpster
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Dumpster
+        ObjectType: 3
+      ID: -1185349680
+      Guid: 3fad081ce31cb4469675db72a1bf0313
       maxAttenuation: 0
     - Name: Play_Guitar
       Path: Default Work Unit\Play_Guitar
@@ -438,8 +468,8 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{06C17D17-3DB2-4232-B3E3-A694AC8723B0}'
-    m_lastTimePsrt1: -1991926758
-    m_lastTimePart2: -1999403732
+    m_lastTimePsrt1: -632653293
+    m_lastTimePart2: -1999403026
     List:
     - Name: Main
       Path: Default Work Unit\Main

@@ -22,7 +22,10 @@ namespace AK
         static const AkUniqueID PLAY_CHACHINGSMALL = 2489948288U;
         static const AkUniqueID PLAY_CHILD = 2952268476U;
         static const AkUniqueID PLAY_CHURCHBELLS = 3419492923U;
+        static const AkUniqueID PLAY_DATING = 1582391079U;
         static const AkUniqueID PLAY_DIVORCE = 1407659604U;
+        static const AkUniqueID PLAY_DOOR = 2547633870U;
+        static const AkUniqueID PLAY_DUMPSTER = 3109617616U;
         static const AkUniqueID PLAY_GUITAR = 3564911592U;
         static const AkUniqueID PLAY_JAIL = 3222604894U;
         static const AkUniqueID PLAY_MUSIC = 2932040671U;

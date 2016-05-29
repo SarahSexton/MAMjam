@@ -46,11 +46,11 @@ public class MainControls : MonoBehaviour {
 		transform.FindChild ("Ripples").GetComponent<SpriteRenderer> ().material.color = c;
 
 		if (Input.GetKey (KeyCode.LeftArrow) && GetComponent<Rigidbody>().velocity.sqrMagnitude > 0.0001f) {
-			mDirection += -transform.right * 0.33f;
+			mDirection += -transform.right * 0.45f;
 			transform.rotation = Quaternion.Euler (mRotation.eulerAngles.x, mRotation.eulerAngles.y - mTurnDegree, mRotation.eulerAngles.z);
 		}
 		if (Input.GetKey (KeyCode.RightArrow) && GetComponent<Rigidbody>().velocity.sqrMagnitude > 0.0001f) {
-			mDirection += transform.right * 0.33f;
+			mDirection += transform.right * 0.45f;
 			transform.rotation = Quaternion.Euler (mRotation.eulerAngles.x, mRotation.eulerAngles.y + mTurnDegree, mRotation.eulerAngles.z);
 		}
 

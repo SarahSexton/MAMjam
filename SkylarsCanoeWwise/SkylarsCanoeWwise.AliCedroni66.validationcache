@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="70">
-	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1725281659" DateHigh="30521109"/>
+	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1378562528" DateHigh="30521798"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1765865728" DateHigh="30449207"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1765865728" DateHigh="30449207"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Attenuations\Default Work Unit.wwu" DateLow="224087244" DateHigh="30520503"/>
@@ -19,7 +19,7 @@
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1725865728" DateHigh="30449207"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1725865728" DateHigh="30449207"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Effects\Factory McDSP Effects.wwu" DateLow="1765865728" DateHigh="30449207"/>
-	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Events\Default Work Unit.wwu" DateLow="1725096537" DateHigh="30521109"/>
+	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Events\Default Work Unit.wwu" DateLow="1378787870" DateHigh="30521798"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Game Parameters\Default Work Unit.wwu" DateLow="224307383" DateHigh="30520503"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1765865728" DateHigh="30449207"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="706914841" DateHigh="30521109"/>
@@ -29,7 +29,7 @@
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Presets\Default Work Unit.wwu" DateLow="223937131" DateHigh="30520503"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Queries\Default Work Unit.wwu" DateLow="224688916" DateHigh="30520503"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Queries\Factory Queries.wwu" DateLow="1765865728" DateHigh="30449207"/>
-	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\SkylarsCanoeWwise.AliCedroni66.wsettings" DateLow="2285786405" DateHigh="30521109"/>
+	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\SkylarsCanoeWwise.AliCedroni66.wsettings" DateLow="1378847734" DateHigh="30521798"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\SkylarsCanoeWwise.wproj" DateLow="3123249353" DateHigh="30520505"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\SoundBanks\Default Work Unit.wwu" DateLow="1724816410" DateHigh="30521109"/>
 	<ValidationCacheItem File="C:\Users\AliCedroni66\Documents\GitHub\MAMjam\SkylarsCanoeWwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="224583838" DateHigh="30520503"/>

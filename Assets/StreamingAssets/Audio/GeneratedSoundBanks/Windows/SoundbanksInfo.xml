@@ -28,7 +28,10 @@
 				<Event Id="2489948288" Name="Play_ChaChingSmall"/>
 				<Event Id="2952268476" Name="Play_Child"/>
 				<Event Id="3419492923" Name="Play_ChurchBells"/>
+				<Event Id="1582391079" Name="Play_Dating"/>
 				<Event Id="1407659604" Name="Play_Divorce"/>
+				<Event Id="2547633870" Name="Play_Door"/>
+				<Event Id="3109617616" Name="Play_Dumpster"/>
 				<Event Id="3564911592" Name="Play_Guitar"/>
 				<Event Id="3222604894" Name="Play_Jail"/>
 				<Event Id="2932040671" Name="Play_Music"/>
@@ -59,6 +62,10 @@
 					<ShortName>GamePlayMusic.wav</ShortName>
 					<Path>SFX\GamePlayMusic_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="122501549" Language="SFX">
+					<ShortName>Dumpster.wav</ShortName>
+					<Path>SFX\Dumpster_9E69E797.wem</Path>
+				</File>
 				<File Id="126638071" Language="SFX">
 					<ShortName>Plant.wav</ShortName>
 					<Path>SFX\Plant_9E69E797.wem</Path>
@@ -82,6 +89,10 @@
 				<File Id="188394434" Language="SFX">
 					<ShortName>Bird1Loud.wav</ShortName>
 					<Path>SFX\Bird1Loud_9E69E797.wem</Path>
+				</File>
+				<File Id="194010758" Language="SFX">
+					<ShortName>Door.wav</ShortName>
+					<Path>SFX\Door_9E69E797.wem</Path>
 				</File>
 				<File Id="215586301" Language="SFX">
 					<ShortName>Cat3Distress1.wav</ShortName>
@@ -198,6 +209,10 @@
 				<File Id="772507288" Language="SFX">
 					<ShortName>Cat2Distress1.wav</ShortName>
 					<Path>SFX\Cat2Distress1_9E69E797.wem</Path>
+				</File>
+				<File Id="786558330" Language="SFX">
+					<ShortName>Dating.wav</ShortName>
+					<Path>SFX\Dating_9E69E797.wem</Path>
 				</File>
 				<File Id="799473161" Language="SFX">
 					<ShortName>RiverRocky.wav</ShortName>

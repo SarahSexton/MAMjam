@@ -265,6 +265,39 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Dating" ID="{61CA3A43-8985-446E-9EE7-3DAFBCD0615B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{743A5E0C-D662-450C-BDE0-1A0025FC983A}" ShortID="419846773" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1A239B42-087A-4B18-ADC2-C9371E968B43}" Global="false">
+									<ObjectRef Name="Dating" ID="{BE30021F-6881-4DE8-A53E-C7D4809DAE6D}" WorkUnitID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Door" ID="{0E965FA6-5ADB-44FE-A8F9-A97FA3ABB4BB}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D3764C34-E5A6-4899-9E8B-559CB41F03C0}" ShortID="856631528" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A720F403-9295-4B76-9D87-44E421599D78}" Global="false">
+									<ObjectRef Name="Door" ID="{F03D73AC-C60F-4110-A735-3F0DF4C2E50F}" WorkUnitID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Dumpster" ID="{1C08AD3F-1CE3-46B4-9675-DB72A1BF0313}">
+					<ChildrenList>
+						<Action Name="Play" ID="{2820C3E0-6548-4FFE-A4B7-D105E78037AA}" ShortID="353264513" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BF550CCF-A83F-4408-AB28-D667A64F3E53}" Global="false">
+									<ObjectRef Name="Dumpster" ID="{82C25A22-45D1-486F-9A43-4D2EF491CAD8}" WorkUnitID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
