@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{FD4D0EBA-3A75-470A-9124-966828211858}'
-    m_lastTimePsrt1: -1991646631
-    m_lastTimePart2: -1999403732
+    m_lastTimePsrt1: 1957011998
+    m_lastTimePart2: -1999403043
     List:
     - Name: Play_Amb
       Path: Default Work Unit\Play_Amb
@@ -208,6 +208,26 @@ MonoBehaviour:
         ObjectType: 3
       ID: 441572235
       Guid: b22ca13fba19ce49a0a35dc32623828e
+      maxAttenuation: 0
+    - Name: Play_Whistle
+      Path: Default Work Unit\Play_Whistle
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Whistle
+        ObjectType: 3
+      ID: -1601709716
+      Guid: 8e16684417721d499f8b5da8182ecf60
+      maxAttenuation: 0
+    - Name: Play_Whistle2
+      Path: Default Work Unit\Play_Whistle2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Whistle2
+        ObjectType: 3
+      ID: 568018230
+      Guid: c8fff17cdbbe074d99e1b8bd1eb19e86
       maxAttenuation: 0
     - Name: Play_WoodCreak
       Path: Default Work Unit\Play_WoodCreak

@@ -1576,7 +1576,28 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Whistle" ID="{A889D639-8AB7-4C0F-A3C1-954F4B67E466}" ShortID="684362804">
+				<Sound Name="Whistle1" ID="{9E6C263C-5723-4039-AA6B-9BFA21647D9C}" ShortID="452931257" Type="SoundFX">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C54439C7-6BB2-4189-B9A1-81CBF48BEE95}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
@@ -1586,46 +1607,71 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Whistle1" ID="{9E6C263C-5723-4039-AA6B-9BFA21647D9C}" ShortID="452931257" Type="SoundFX">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Whistle1" ID="{5151727A-ABFC-4351-8328-5C2E3519FED5}" ShortID="954611147">
-									<Language>SFX</Language>
-									<AudioFile>Whistle1.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Whistle1" ID="{5151727A-ABFC-4351-8328-5C2E3519FED5}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Whistle2" ID="{301C47BE-BDC7-4817-AB7A-FF607B816789}" ShortID="889593819" Type="SoundFX">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Whistle2" ID="{83E26047-E9F5-45F2-94A2-795A1DBC9DD7}" ShortID="130326411">
-									<Language>SFX</Language>
-									<AudioFile>Whistle2.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Whistle2" ID="{83E26047-E9F5-45F2-94A2-795A1DBC9DD7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+						<AudioFileSource Name="Whistle1" ID="{5151727A-ABFC-4351-8328-5C2E3519FED5}" ShortID="954611147">
+							<Language>SFX</Language>
+							<AudioFile>Whistle1.wav</AudioFile>
+						</AudioFileSource>
 					</ChildrenList>
-				</RandomSequenceContainer>
+					<PositioningInfo>
+						<Panner Name="" ID="{9E6D5BFE-4D35-4FD2-8198-4A4F787C69B2}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-61.0997963340122"/>
+								<Property Name="PanY" Type="Real64" Value="34.9892008639309"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Whistle1" ID="{5151727A-ABFC-4351-8328-5C2E3519FED5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Whistle2" ID="{301C47BE-BDC7-4817-AB7A-FF607B816789}" ShortID="889593819" Type="SoundFX">
+					<PropertyList>
+						<Property Name="EnablePanner" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{4002A372-70A2-4025-9AFF-445D5E1576BD}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4B7D0BA1-A932-4815-A85B-D3B8EC029B07}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E7E18790-6041-43E1-99B2-4AD8EE647A7E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Whistle2" ID="{83E26047-E9F5-45F2-94A2-795A1DBC9DD7}" ShortID="130326411">
+							<Language>SFX</Language>
+							<AudioFile>Whistle2.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{A513B02F-31CD-4117-BA93-3248230AE314}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="71.2830957230143"/>
+								<Property Name="PanY" Type="Real64" Value="31.5334773218143"/>
+							</PropertyList>
+						</Panner>
+					</PositioningInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="Whistle2" ID="{83E26047-E9F5-45F2-94A2-795A1DBC9DD7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

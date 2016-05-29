@@ -38,6 +38,8 @@
 				<Event Id="2689642121" Name="Play_Plant"/>
 				<Event Id="4147217813" Name="Play_SchoolBell"/>
 				<Event Id="441572235" Name="Play_Water"/>
+				<Event Id="2693257580" Name="Play_Whistle"/>
+				<Event Id="568018230" Name="Play_Whistle2"/>
 				<Event Id="3217967095" Name="Play_WoodCreak"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -60,6 +62,10 @@
 				<File Id="126638071" Language="SFX">
 					<ShortName>Plant.wav</ShortName>
 					<Path>SFX\Plant_9E69E797.wem</Path>
+				</File>
+				<File Id="130326411" Language="SFX">
+					<ShortName>Whistle2.wav</ShortName>
+					<Path>SFX\Whistle2_9E69E797.wem</Path>
 				</File>
 				<File Id="130806263" Language="SFX">
 					<ShortName>ChildLaugh1.wav</ShortName>
@@ -99,7 +105,7 @@
 				</File>
 				<File Id="369267528" Language="SFX">
 					<ShortName>WoodCreak4.wav</ShortName>
-					<Path>SFX\WoodCreak4_0D2B8219.wem</Path>
+					<Path>SFX\WoodCreak4_1730669D.wem</Path>
 				</File>
 				<File Id="373895296" Language="SFX">
 					<ShortName>Crow1.wav</ShortName>
@@ -167,7 +173,7 @@
 				</File>
 				<File Id="716881039" Language="SFX">
 					<ShortName>WoodCreak2.wav</ShortName>
-					<Path>SFX\WoodCreak2_C98D4B0E.wem</Path>
+					<Path>SFX\WoodCreak2_0CD6673D.wem</Path>
 				</File>
 				<File Id="728601735" Language="SFX">
 					<ShortName>Cat2Distress3.wav</ShortName>
@@ -179,7 +185,7 @@
 				</File>
 				<File Id="748040538" Language="SFX">
 					<ShortName>WoodCreak3.wav</ShortName>
-					<Path>SFX\WoodCreak3_464B3442.wem</Path>
+					<Path>SFX\WoodCreak3_6BE154D0.wem</Path>
 				</File>
 				<File Id="754461083" Language="SFX">
 					<ShortName>ColdWind.wav</ShortName>
@@ -221,13 +227,17 @@
 					<ShortName>NatureLoopLoud.wav</ShortName>
 					<Path>SFX\NatureLoopLoud_4B8CC0C5.wem</Path>
 				</File>
+				<File Id="954611147" Language="SFX">
+					<ShortName>Whistle1.wav</ShortName>
+					<Path>SFX\Whistle1_9E69E797.wem</Path>
+				</File>
 				<File Id="973849296" Language="SFX">
 					<ShortName>CatPurrLoud.wav</ShortName>
 					<Path>SFX\CatPurrLoud_9E69E797.wem</Path>
 				</File>
 				<File Id="991298732" Language="SFX">
 					<ShortName>WoodCreak1.wav</ShortName>
-					<Path>SFX\WoodCreak1_F3F2C600.wem</Path>
+					<Path>SFX\WoodCreak1_53305EBD.wem</Path>
 				</File>
 				<File Id="1007180739" Language="SFX">
 					<ShortName>Jail.wav</ShortName>

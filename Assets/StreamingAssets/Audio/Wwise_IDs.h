@@ -32,6 +32,8 @@ namespace AK
         static const AkUniqueID PLAY_PLANT = 2689642121U;
         static const AkUniqueID PLAY_SCHOOLBELL = 4147217813U;
         static const AkUniqueID PLAY_WATER = 441572235U;
+        static const AkUniqueID PLAY_WHISTLE = 2693257580U;
+        static const AkUniqueID PLAY_WHISTLE2 = 568018230U;
         static const AkUniqueID PLAY_WOODCREAK = 3217967095U;
     } // namespace EVENTS
 

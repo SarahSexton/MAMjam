@@ -233,6 +233,38 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Whistle" ID="{4468168E-7217-491D-9F8B-5DA8182ECF60}">
+					<ChildrenList>
+						<Action Name="Play" ID="{95A55990-E4E3-4E5B-B26A-2DCB7BB3CA51}" ShortID="737537657" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{42753EB4-C7CA-42B8-973E-86C994994D02}" Global="false">
+									<ObjectRef Name="Whistle1" ID="{9E6C263C-5723-4039-AA6B-9BFA21647D9C}" WorkUnitID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Whistle2" ID="{7CF1FFC8-BEDB-4D07-99E1-B8BD1EB19E86}">
+					<ChildrenList>
+						<Action Name="Play" ID="{504EBCC8-3620-4A48-BFFD-3296960A3585}" ShortID="560721798" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.4"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{1FE86122-485D-4D72-A898-3B90F81FCBC7}" Global="false">
+									<ObjectRef Name="Whistle2" ID="{301C47BE-BDC7-4817-AB7A-FF607B816789}" WorkUnitID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{23D5B686-EDFA-48BD-B16A-F2B98CE389AC}" ShortID="1024908394" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{713699D8-8163-47A4-8981-F0D418E53AC5}" Global="false">
+									<ObjectRef Name="Whistle1" ID="{9E6C263C-5723-4039-AA6B-9BFA21647D9C}" WorkUnitID="{2D012CD8-D9BA-41FD-A992-7D2223C4ED68}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
